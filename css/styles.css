@@ -53,6 +53,7 @@ body {
   color: var(--main-title-color);
 }
 
+.active,
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -95,7 +96,8 @@ body {
 
 .hero-btn {
   cursor: pointer;
-
+  
+  font-family: inherit
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -150,6 +152,7 @@ body {
 /* Футер */
 
 .adress {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -161,6 +164,7 @@ body {
 
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -190,6 +194,7 @@ body {
 .portfolio-btn {
   cursor: pointer;
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
